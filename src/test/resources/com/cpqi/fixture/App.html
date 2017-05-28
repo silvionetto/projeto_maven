@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:concordion="http://www.concordion.org/2007/concordion">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>App</title>
+    <link href="../../../concordion.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<h1>Hello World</h1>
+
+<p>My name is <span concordion:set="#name">Jane Smith</span></p>
+<p>Call <span concordion:execute="#result = hello(#name)">hello</span></p>
+<p><span concordion:assert-equals="#result">Hello Jane Smith</span></p>
+
+</body>
+</html>

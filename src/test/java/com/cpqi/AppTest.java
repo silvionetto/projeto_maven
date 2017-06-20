@@ -17,9 +17,6 @@ public class AppTest {
         app = new App();
     }
 
-    /**
-     * Rigourous Test :-)
-     */
     @Test
     public void testApp() {
         assertEquals("The value should be Hello + the name.", "Hello John", app.hello("John"));

@@ -86,9 +86,9 @@
                         </goals>
                         <configuration>
                             <skip>false</skip>
-                            <excludes>
-                                <exclude>**/*Test.java</exclude>
-                            </excludes>
+                            <includes>
+                                <include>**/*Test.java</include>
+                            </includes>
                         </configuration>
                     </execution>
                     <execution>
